@@ -1,0 +1,93 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6f7ff; /* Light blue background for the whole page */
+    min-height: 100vh;
+  }
+  
+  .App-header {
+    background-color: #007bff; /* Primary blue */
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .App-header h1 {
+    margin: 0 0 15px 0;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .city-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #218838; /* Darker green */
+  }
+  .search-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  
+  .App-content {
+    padding: 0 10px;
+  }
+  
+  .error-message {
+    color: #dc3545; /* Red */
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .loading-message {
+    font-style: italic;
+    color: #555;
+    padding: 20px;
+  }
+  
+  .App-footer {
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px solid #ddd;
+  }
+  
+  .App-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .App-footer a:hover {
+    text-decoration: underline;
+  }
